@@ -27,4 +27,4 @@ then choose a dependency rule:
 
 Then `import Last9RUM`. See the docs for token setup and initialization.
 
-<!-- generated: channel=version version=1.6.0 -->
+<!-- generated: channel=stable version=1.6.0 -->
