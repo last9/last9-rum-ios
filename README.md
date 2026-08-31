@@ -14,17 +14,17 @@ Full setup, configuration and changelog live in the
 In Xcode: **File → Add Package Dependencies…**, paste this repository's URL,
 then choose a dependency rule:
 
-- **Exact Version (recommended for a frozen build):** pin exactly `1.6.8-alpha.33375731488`.
+- **Exact Version (recommended for a frozen build):** pin exactly `1.6.8`.
 - **Branch `stable/vN`:** always resolve the latest non-breaking release
   within major version `N`.
 
 ```swift
 // Package.swift consumers — pin an exact version…
-.package(url: "https://github.com/last9/last9-rum-ios.git", exact: "1.6.8-alpha.33375731488")
+.package(url: "https://github.com/last9/last9-rum-ios.git", exact: "1.6.8")
 // …or track the stable branch for the latest non-breaking release:
 // .package(url: "https://github.com/last9/last9-rum-ios.git", branch: "stable/v1")
 ```
 
 Then `import Last9RUM`. See the docs for token setup and initialization.
 
-<!-- generated: channel=version version=1.6.8-alpha.33375731488 -->
+<!-- generated: channel=version version=1.6.8 -->
