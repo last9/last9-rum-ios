@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Last9RUM",
-            url: "https://cdn.last9.io/rum-sdk/ios/builds/1.6.9-alpha.34115615544/Last9RUM.xcframework.zip",
-            checksum: "f4606d2dabe7a302e91c1cd5282d2b4db59829eb6b3aec61accf779934534e7a"
+            url: "https://cdn.last9.io/rum-sdk/ios/builds/1.6.9-alpha.34136251925/Last9RUM.xcframework.zip",
+            checksum: "2f314bae40302d04989a8236a96131a24fe7eafe96467a4cafd17f389102aa0b"
         ),
     ]
 )
